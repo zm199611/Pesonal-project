@@ -17,7 +17,7 @@
     position: relative; 
     transition: all 10s;
     transform-style: preserve-3d;
-    transform-origin: center center -50px;
+    transform-origin: left right -50px;
 }
 #box:hover .plane{
     transform: rotateY(360deg);
@@ -30,8 +30,7 @@
     top: 0;
     text-align: center;
     line-height: 128px;
-    font-size: 30px;
-    backface-visibility:hidden;
+    
 }
 #side1{
     background: white;
@@ -53,10 +52,11 @@
 }
 #side4{
     background: white;
-    top: -128px;
+    top: -64px;
     transform-origin:bottom;
-    transform: rotateX(90deg);
+    transform: translateZ(-128px) rotateY(180deg) rotateX(-45deg);
     border:  0.5px solid black;
+    height: 64px;
 }
 #side5{
     background: white;
@@ -71,3 +71,11 @@
     transform: translateZ(-128px) rotateY(180deg);
     border: 0.5px solid black;
 }      
+#side7{
+    background: white;
+    top: -64px;
+    transform-origin:bottom;
+    transform: rotateX(-45deg);
+    border:  0.5px solid black;
+    height: 64px;
+}
