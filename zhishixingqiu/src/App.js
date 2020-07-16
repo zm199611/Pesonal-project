@@ -8,12 +8,14 @@ import Headers from './header/Headers'
 
 function App() {
   return (
-    <div className="App">
+   
+      <div className="App">
         <Headers />
         <Search />
         <Planet />
         <Tabbar />
     </div>
+    
     
   );
 }
