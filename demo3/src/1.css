@@ -1,0 +1,13 @@
+#all {
+    border-radius: 50%;
+}
+
+.all:active {
+    background-color: greenyellow;
+}
+
+.checkbox {
+    background-color: greenyellow;
+    width: 50px;
+    border-radius: 50%;
+}
