@@ -1,13 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { useState, useEffect } from 'react'
 
-function App() {
-  return (
-    <div className="App">
-         <CheckboxList />
-    </div>
-  );
+
+function App(props) {
+
 }
 
 export default App;
