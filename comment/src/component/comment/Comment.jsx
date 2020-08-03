@@ -2,12 +2,14 @@ import React from 'react'
 import Style from './Style'
 import { renderRoutes } from 'react-router-config'
 import { UserName, Content, Button, Down, DownContent } from './Style'
+import { Globalstyle } from './Style'
 
  function Comment(props) {
     // const { route } = props
     return (
         <div className="all">
             <div className="top">
+                <Globalstyle />
                 <UserName>
                     <label htmlFor=""> 用户名<input type="text" className="zm" /></label>
                 </UserName>
