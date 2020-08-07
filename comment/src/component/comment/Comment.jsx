@@ -3,17 +3,16 @@ import Style from './Style'
 import { renderRoutes } from 'react-router-config'
 import { UserName, Content, Button, Down, DownContent } from './Style'
 import { Globalstyle } from './Style'
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 
 function Comment(props) {
     // const { route } = props
-    const { Username, setUsername } = useState('') 
-    const { Content, setContent } = useState('') 
-    const change = ((e)=>{
-        this.setUsername({
-            Username:e.target.value
+    const { username, setUsername } = useState('') 
+    const { content, setContent } = useState('') 
+    useEffect((e) => {
+       
     })
-    
+
     return (
         <div className="all">
             <div className="content">

@@ -5,7 +5,7 @@ export const Globalstyle = createGlobalStyle`　
 body{
 　　margin: 0;
 　　padding: 0;
-    background-color:#FBFBFB;
+    background-color:bisque;
 }
 body .all{
     height:500px;
