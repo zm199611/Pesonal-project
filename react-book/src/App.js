@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import logo from './logo.svg';
 import './App.css';
-import { useState } from 'react'
 import ReactDOM, { render } from 'react-dom'
 
 class App extends Component {

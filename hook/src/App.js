@@ -4,8 +4,13 @@ import './App.css';
 import { useState, useEffect } from 'react'
 
 
-function App(props) {
-
+function Like(props) {
+    const [ like, setLike ] = useState('')
+    return(
+        <div className="like">
+            <button onClick=""></button>
+        </div>
+    )
 }
 
 export default App;
